@@ -1,0 +1,17 @@
+# Google Drive 系統檔
+desktop.ini
+*.tmp
+~$*
+
+# 敏感資料
+.env
+*.key
+credentials.*
+
+# AI agent 本地設定（含 permissions、可能記錄 token）
+.claude/
+.codex/
+
+# Node.js
+node_modules/
+package-lock.json
