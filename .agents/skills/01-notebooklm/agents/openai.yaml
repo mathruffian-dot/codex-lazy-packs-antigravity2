@@ -1,0 +1,4 @@
+interface:
+  display_name: "NotebookLM 安全連接"
+  short_description: "診斷登入、設定 MCP，並防止 Agent 重複索取資料"
+  default_prompt: "Use $01-notebooklm to diagnose and connect NotebookLM without repeating login attempts or exposing cookies."
