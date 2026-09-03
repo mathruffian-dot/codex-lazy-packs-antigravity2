@@ -38,7 +38,7 @@ agy
 - 先檢查版本與登入狀態，不直接重裝。
 - API key、OAuth token、Cookie、學生資料不進 repo 或對話輸出。
 - MCP、Browser、CLI 先唯讀驗證；寫入、公開、刪除前取得確認。
-- 不使用 `--dangerously-skip-permissions`。
+- 不關閉權限確認（AntiGravity 沒有 Claude Code 的 `--dangerously-skip-permissions`，但同樣不要把工具設成免確認）。
 
 本 repo 由 `codex-lazy-packs` 衍生；舊版長篇文章保留在來源 repo，本版只收錄 AntiGravity 2 可執行的技能。
 
